@@ -83,6 +83,13 @@ const tourData = [
     name: "Itahari Bazar view",
     info: "Itahari (In Devanāgarī: ईटहरी) is a sub-metropolitan city in the Sunsari District of Province No. 1 of Nepal. Itahari is also counted as one of the biggest cities of Nepal. Situated at a distance of 25 kilometres north of the provincial capital of Biratnagar, 16 kilometres south of Dharan and 92 kilometres west of Kakarbhitta, Itahari serves as a junction point of the east-west Mahendra highway and the north-south Koshi highway.",
   },
+  {
+    id: 9,
+    city: "Bhaktapur",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Early_morning_view_of_Bhaktapur_Durbar_Square.jpg",
+    name: "Bhaktapur Durbar Square Area",
+    info: "Bhaktapur (Nepali: भक्तपुर, pronounced [ˈbʱʌkt̪ʌpur] (About this soundlisten); lit. City of Devotees), also known as Khwopa (Newar: ख्वप Khwopa), is a city in the east corner of the Kathmandu Valley in Nepal about 13 kilometres (8.1 mi) from the capital city, Kathmandu. It is located in and serves as the headquarters of Bhaktapur District in Bagmati Pradesh of Nepal. It is administratively divided into 10 wards. Khwopa was the largest of the three Newa kingdoms of the Kathmandu Valley and was the capital of Nepal during the great Malla Kingdom until the second half of the 15th century. It has a population of more than 81,728, of which the vast majority are still Newa Nepa mi. Historically more isolated than the other two kingdoms, Kathmandu and Patan, Bhaktapur has a distinctly different form of Nepal Bhasa language. Bhaktapur has the best-preserved palace courtyards and old city centre in Nepal and is listed as a World Heritage Site by UNESCO for its rich culture, temples, and wood, metal and stone artworks. This is supported by the restoration and preservation efforts of the German-funded Bhaktapur Development Project (BDP). The city is famous for a special type of dahi (yoghurt) called Ju Ju Dhau",
+  },
 ];
 
 export default tourData;
