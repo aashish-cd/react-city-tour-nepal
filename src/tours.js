@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import tourData from './tourData'
 
 const Tours = () => {
-  const [more, setMore] = useState(false)
   const [active, setActive] = useState(0)
 
   return (
