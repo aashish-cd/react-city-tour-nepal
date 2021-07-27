@@ -1,39 +1,33 @@
 import React, { useState } from 'react'
 import tourData from './tourData'
 
-
 const Tours = () => {
- const [more, setMore] = useState(false)
+  const [more, setMore] = useState(false)
+  const [active, setActive] = useState(0)
 
- const controlMore = (id) => {
-  setMore(!more)
- }
- return (
-  <div className='container  pd-5'>
-   {
-
-    tourData.map((item) => {
-     const { id, city, img, name, info } = item
-     return (
-
-      <div className="card col-8 m-2 pd-3" key={id}>
-       <img src={img} className="card-img-top" alt={name} />
-       <div className="card-body">
-        <h2>{city}</h2>
-        <h5 className="card-title">{name}</h5>
-        {more ? <p className="card-text">{info}</p> : ''}
-        <button onClick={() => controlMore(id)}>
-         {more ? 'show less' : 'show more'}
-        </button>
-
-
-
-       </div>
-      </div>
-     )
-    })
-   }
-  </div>
- )
+  return (
+    <div className='container  pd-5'>
+      {tourData.map((item) => {
+        const { id, city, img, name, info } = item
+        return (
+          <div className='grid-item' key={id}>
+            <img src={img} className='image' alt={name} />
+            <div className='container-body'>
+              <h2>{city}</h2>
+              <h5 className='title'>{name}</h5>
+              <p className={` ${id === active ? 'text' : 'hide'}`}>{info}</p>
+              <button
+                onClick={() => {
+                  setActive(id)
+                }}
+              >
+                {id === active ? 'show less' : 'Read more'}
+              </button>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
 }
 export default Tours
