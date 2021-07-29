@@ -92,10 +92,10 @@ const tourData = [
   },
   {
     id: 10,
-    city: 'Bhimdatta | Mahendranagar',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Early_morning_view_of_Bhaktapur_Durbar_Square.jpg',
+    city: 'Kanchanpur',
+    img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fbeautifulfarwestnepal.blogspot.com%2F2012%2F02%2Fkanchanpur-district.html&psig=AOvVaw3OvhCmcY5KK6D0kxCGu1wG&ust=1627668893894000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMinq6TxiPICFQAAAAAdAAAAABAI',
     name: 'Bhaktapur Durbar Square Area',
-    info: 'Bhimdatta (Nepali भिमदत्त), is a municipality in Kanchanpur District of Sudurpashchim Pradesh, Nepal. The city and the municipality were named Mahendranagar in the honour of late king Mahendra of Nepal. After becoming a republic in 2008, the Mahendranagar municipality name was changed to Bhimdatta municipality in honour of the revolutionary farmer leader Bhimdatta Panta.[3] It is surrounded by Bedkot Municipality in the east, Dadeldhura District in the north, Shuklaphanta National Park in the south and Uttarakhand, India in the west.',
+    info: 'Kanchanpur District (Nepali: कञ्चनपुर जिल्ला [ˈkʌnt͡sʌnpur] (About this soundlisten)), a part of Sudurpashchim Province in the Terai plain, is one of seventy seven districts of Nepal. The district, with Bhimdatta as its district headquarters, covers an area of 1,610 square kilometres (620 sq mi) and had a population of 134,868 in 2001 and 171,304 in 2011.[1][2] It is located in south-western of Nepal. It is bordered by Kailali district in the east, Dadeldhura district in the north and with India in the south and west.',
   },
 ]
 
