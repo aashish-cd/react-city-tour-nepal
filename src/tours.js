@@ -3,6 +3,7 @@ import tourData from './tourData'
 
 const Tours = () => {
   const [active, setActive] = useState(0)
+//   const [more, setMore] = useState(false)
 
   return (
     <div className='container  pd-5'>
@@ -14,10 +15,11 @@ const Tours = () => {
             <div className='container-body'>
               <h2>{city}</h2>
               <h5 className='title'>{name}</h5>
-              <p className={` ${id === active ? 'text' : 'hide'}`}>{info}</p>
+              <p className={` ${id === active ? 'text' : 'hide'} `}>{info}</p>
               <button
                 onClick={() => {
                   setActive(id)
+//                   setMore(!more)
                 }}
               >
                 {id === active ? 'show less' : 'Read more'}
