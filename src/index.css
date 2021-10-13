@@ -5,9 +5,10 @@
 
 .container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto;
   background-color: #2196f3;
   padding: 10px;
+  margin-top: 100px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -26,4 +27,11 @@
 }
 .hide {
   display: none;
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  box-sizing: border-box;
 }
