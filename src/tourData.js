@@ -84,19 +84,19 @@ const tourData = [
     info: 'Itahari (In Devanāgarī: ईटहरी) is a sub-metropolitan city in the Sunsari District of Province No. 1 of Nepal. Itahari is also counted as one of the biggest cities of Nepal. Situated at a distance of 25 kilometres north of the provincial capital of Biratnagar, 16 kilometres south of Dharan and 92 kilometres west of Kakarbhitta, Itahari serves as a junction point of the east-west Mahendra highway and the north-south Koshi highway.',
   },
   {
-    id: 9,
+    id: 13,
     city: 'Bhaktapur',
     img: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Early_morning_view_of_Bhaktapur_Durbar_Square.jpg',
     name: 'Bhaktapur Durbar Square Area',
     info: 'Bhaktapur (Nepali: भक्तपुर, pronounced [ˈbʱʌkt̪ʌpur] (About this soundlisten); lit. City of Devotees), also known as Khwopa (Newar: ख्वप Khwopa), is a city in the east corner of the Kathmandu Valley in Nepal about 13 kilometres (8.1 mi) from the capital city, Kathmandu. It is located in and serves as the headquarters of Bhaktapur District in Bagmati Pradesh of Nepal. It is administratively divided into 10 wards. Khwopa was the largest of the three Newa kingdoms of the Kathmandu Valley and was the capital of Nepal during the great Malla Kingdom until the second half of the 15th century. It has a population of more than 81,728, of which the vast majority are still Newa Nepa mi. Historically more isolated than the other two kingdoms, Kathmandu and Patan, Bhaktapur has a distinctly different form of Nepal Bhasa language. Bhaktapur has the best-preserved palace courtyards and old city centre in Nepal and is listed as a World Heritage Site by UNESCO for its rich culture, temples, and wood, metal and stone artworks. This is supported by the restoration and preservation efforts of the German-funded Bhaktapur Development Project (BDP). The city is famous for a special type of dahi (yoghurt) called Ju Ju Dhau',
   },
   {
-    id: 10,
+    id: 14,
     city: 'Kanchanpur',
     img: 'https://1.bp.blogspot.com/-cS7OMssUJ5Q/URqXE1WT5OI/AAAAAAAAAc0/hB6UGz15R1Y/s400/mahakali.JPG',
     name: 'Dodhara-Chandani Bridge',
     info: 'Kanchanpur District (Nepali: कञ्चनपुर जिल्ला [ˈkʌnt͡sʌnpur] (About this soundlisten)), a part of Sudurpashchim Province in the Terai plain, is one of seventy seven districts of Nepal. The district, with Bhimdatta as its district headquarters, covers an area of 1,610 square kilometres (620 sq mi) and had a population of 134,868 in 2001 and 171,304 in 2011.[1][2] It is located in south-western of Nepal. It is bordered by Kailali district in the east, Dadeldhura district in the north and with India in the south and west.',
   },
-]
+];
 
-export default tourData
+export default tourData;
