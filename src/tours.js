@@ -8,11 +8,11 @@ const Tours = () => {
   const [data, setData] = useState(tourData);
   //   const [more, setMore] = useState(false)
 
-  const handleSearch = (e) => {
-    // e.preventDefault();
-    // setSearch(e.target.value);
-    setData(tourData.filter((s) => s.city.toLowerCase().includes(search)));
-  };
+  // const handleSearch = (e) => {
+  //   // e.preventDefault();
+  //   // setSearch(e.target.value);
+  //   setData(tourData.filter((s) => s.city.toLowerCase().includes(search)));
+  // };
 
   return (
     <>
