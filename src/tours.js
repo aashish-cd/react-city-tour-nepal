@@ -18,6 +18,7 @@ const Tours = () => {
     <>
       <div>
         <input
+          placeholder='search with city name'
           className='fixed-top input'
           type='text'
           value={search}
