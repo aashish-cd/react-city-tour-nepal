@@ -1,18 +1,12 @@
-import React, { useState } from 'react';
-import tourData from './tourData';
+import React, { useState } from 'react'
+import tourData from './tourData'
 
 const Tours = () => {
-  const [active, setActive] = useState(0);
-  const [showMore, setShowMore] = useState(false);
-  const [search, setSearch] = useState('kath');
-  const [data, setData] = useState(tourData);
+  const [active, setActive] = useState(0)
+  const [showMore, setShowMore] = useState(false)
+  const [search, setSearch] = useState('')
+  const [data, setData] = useState(tourData)
   //   const [more, setMore] = useState(false)
-
-  // const handleSearch = (e) => {
-  //   // e.preventDefault();
-  //   // setSearch(e.target.value);
-  //   setData(tourData.filter((s) => s.city.toLowerCase().includes(search)));
-  // };
 
   return (
     <>
@@ -23,18 +17,18 @@ const Tours = () => {
           type='text'
           value={search}
           onChange={(e) => {
-            setSearch(e.target.value);
+            setSearch(e.target.value)
             setData(
               tourData.filter((ss) =>
                 ss.city.toLowerCase().includes(e.target.value)
               )
-            );
+            )
           }}
         />
       </div>
       <div className='container pd-5'>
         {data.map((item) => {
-          const { id, city, img, name, info } = item;
+          const { id, city, img, name, info } = item
           return (
             <div className='grid-item' key={id}>
               <img src={img} className='image' alt={name} />
@@ -48,8 +42,8 @@ const Tours = () => {
                 </p>
                 <button
                   onClick={() => {
-                    setActive(id);
-                    setShowMore(!showMore);
+                    setActive(id)
+                    setShowMore(!showMore)
 
                     //                   setMore(!more)
                   }}
@@ -58,10 +52,10 @@ const Tours = () => {
                 </button>
               </div>
             </div>
-          );
+          )
         })}
       </div>{' '}
     </>
-  );
-};
-export default Tours;
+  )
+}
+export default Tours
