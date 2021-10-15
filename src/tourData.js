@@ -92,7 +92,7 @@ const tourData = [
   },
   {
     id: 14,
-    city: 'Kanchanpur',
+    city: 'Kanchanpur - Mahendranagar ',
     img: 'https://1.bp.blogspot.com/-cS7OMssUJ5Q/URqXE1WT5OI/AAAAAAAAAc0/hB6UGz15R1Y/s400/mahakali.JPG',
     name: 'Dodhara-Chandani Bridge',
     info: 'Kanchanpur District (Nepali: कञ्चनपुर जिल्ला [ˈkʌnt͡sʌnpur] (About this soundlisten)), a part of Sudurpashchim Province in the Terai plain, is one of seventy seven districts of Nepal. The district, with Bhimdatta as its district headquarters, covers an area of 1,610 square kilometres (620 sq mi) and had a population of 134,868 in 2001 and 171,304 in 2011.[1][2] It is located in south-western of Nepal. It is bordered by Kailali district in the east, Dadeldhura district in the north and with India in the south and west.',
